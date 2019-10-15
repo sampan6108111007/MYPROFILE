@@ -5,7 +5,7 @@ You can use the [editor on GitHub](https://github.com/sampan6108111007/MYPROFILE
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
-![Image](https://github.io/sampan6108111007/mycool/blob/master/black.jpg)
+![Image](http://sampan6108111007.github.io/mycool/black.jpg)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -25,7 +25,7 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image]()
-![Image](https://github.com/sampan6108111007/mycool/blob/master/black.jpg)
+![Image]()
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
