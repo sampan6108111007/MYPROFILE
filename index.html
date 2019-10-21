@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<title>S A M P A N</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif
+  }
+
+  .w3-row-padding img {
+    margin-bottom: 12px
+  }
+
+  .w3-sidebar {
+    width: 120px;
+    background: #222;
+  }
+
+  #main {
+    margin-left: 120px
+  }
+
+  @media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0
+    }
+  }
+
+  .mySlides {
+    display: none
+  }
+</style>
+
+<body class="w3-black">
+
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <img src="b.jpeg" style="width:100%">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+
+      <p>Home</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+
+      <p>About</p>
+    </a>
+  
+      <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <p>portfolio</p>
+     
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+
+        <p>Contact</p>
+      </a>
+      <a href="https://github.com/sampan6108111007" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+
+        <p>Github</p>
+      </a>
+     
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    
+      <a href="#MyHome" class="w3-bar-item w3-button" style="width:25% !important">portfolio</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+      <a href="https://github.com/sampan6108111007">GITHUB</a>
+      <a href="https://thaiall.github.io/tech100/training61.htm">Friend</a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <a href="profile.html">
+      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Black.</h1>
+    </a>
+    <p>
+      <marquee direction="left">Sampan suriya.</marquee>
+    </p>
+    <img src="b.jpeg" alt="Photo of Me" class="w3-round w3-image w3-opacity w3-hover-opacity-off" style="width:100% height:100%">
+
+    <div class="w3-display-topright w3-container w3-xlarge"> <img class="ico" src="https://cdn.webrad.io/images/equalizer.gif"
+        alt="Radioth.net" height="14" width="23">
+      <div class="col-xs-12 nopadding" style="height:50px;"></div>
+
+      <div class="w3-display-topright w3-container w3-xlarge">
+        <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">Radio</button></p>
+        <div id="menu" class="w3-modal">
+          <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-container w3-black w3-display-container">
+              <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+              <h1>Radio </h1>
+              <p>
+                <h1>by coolism.net</h1>
+              </p>
+            </div>
+
+            <img class="ico" src="https://cdn.webrad.io/images/equalizer.gif" alt="Radioth.net" height="14" width="23">
+            <div class="col-xs-12 nopadding" style="height:50px;">
+              <p class="text-xs-center"></p>
+              <div class="font_time_coolj" id="coolj_time"></div>
+              <iframe src="http://www.coolism.net/radio/siamha/" scrolling="no" width="300" height="250" frameborder="0"
+                marginheight="0" marginwidth="0" __idm_frm__="6066"></iframe>
+            </div>
+            </header>
+            <hr>
+
+            <!-- About Section -->
+            <div class="w3-row w3-padding-64" id="about">
+              <div class="w3-col m6 w3-padding-large w3-hide-small">
+                <img src="ba.jpg" alt="Photo of Me" class="w3-round w3-image w3-opacity w3-hover-opacity-off" style="width:80%;height:100%">
+              </div>
+
+              <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center">About Me</h1><br>
+
+                <h5 class="w3-center">^__^  S A M P A N  ^__^</h5>
+
+               
+                <a href="about.html">
+                  <div class=" w3-center ">
+                    <p><button class="w3-button w3-padding-large w3-white w3-border "><b>READ MORE »</b></button></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="vc_column-inner">
+              <div class="wpb_wrapper">
+
+              </div>
+            </div>
+            <hr>
+  <!-- portfolio Section -->
+              <div class="w3-padding-64 w3-content w3-text-grey" id="portfolio">
+                <h2 class="w3-text-light-grey">portfolio</h2>
+                <hr style="width:200px" class="w3-opacity">
+                <div class="w3-section">
+                    <p>
+                        <a href="https://test-ubuntu.blogspot.com/2019/09/ubuntu.html?fbclid=IwAR0jGDNbRLPqQ5x7q20Juea9rWqDe06dWsiRLDVBwiqsSvxCNyT5B0dQEyo">
+                            <h3><strong><span style="color: #993300;">คำสั่ง Linux </span></strong></h3>
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="https://github.com/sampan6108111007/CPSC241_621/blob/master/batch%20file.docx">
+                            <h3><strong><span style="color: #993300;">batch file </span></strong></h3>
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="https://github.com/sampan6108111007/CPSC241_621?fbclid=IwAR1D2oSHTHWIlvQjE8C6qqq00Z985jbI93W3sME64tI1h5VYF1qM3eyQ_8U">
+                            <h3><strong><span style="color: #993300;">คำสั่งภายนอกภายใน </span></strong></h3>
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="https://github.com/sampan6108111007/CPSC241_621/blob/master/ข้อมูลเครื่องคอมพิวเตอร์ของฉัน.jpg">
+                            <h3><strong><span style="color: #993300;">ข้อมูลเครื่องคอมพิวเตอร์ของฉัน </span></strong></h3>
+                        </a>
+                    </p>
+
+                     <p>
+                        <a href="https://github.com/sampan6108111007/CPSC241_621/blob/master/%E0%B8%A8%E0%B8%B1%E0%B8%9E%E0%B8%97%E0%B9%8C%E0%B9%80%E0%B8%97%E0%B8%84%E0%B8%99%E0%B8%B4%E0%B8%84%2050%20%E0%B8%84%E0%B8%B3.pdf">
+                            <h3><strong><span style="color: #993300;">ศัพท์เทคนิค 50 คำ </span></strong></h3>
+                        </a>
+                    </p>
+                 
+                </div><br>
+                <hr>
+
+           <!-- Contact Section -->
+              <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+                <h2 class="w3-text-light-grey">Contact Me</h2>
+                <hr style="width:200px" class="w3-opacity">
+                <div class="w3-section">
+                  <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Huaikon, NAN</p>
+                  <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 0642321796</p>
+                  <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:
+                    sampansu1139@gmail.com</p>
+                </div><br>
+                <hr>
+              
+             
+                <!-- Footer -->
+                <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+                  <a href="https://web.facebook.com/profile.php?id=100029279708428"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                  <i class="fa fa-instagram w3-hover-opacity"></i>
+                  <i class="fa fa-twitter w3-hover-opacity"></i>
+                </footer>
+                <!-- END PAGE CONTENT -->
+                <img class="ico" src="https://cdn.webrad.io/images/equalizer.gif" alt="Radioth.net" height="14" width="23">
+                <div class="col-xs-12 nopadding" style="height:50px;">
+                </div>
+</body>
+
+</html>
